@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 2256544930861874615}
   - component: {fileID: 8018165464395120212}
   - component: {fileID: 79403394482558540}
-  - component: {fileID: -4595725964050808026}
-  - component: {fileID: 3931348277567152502}
+  - component: {fileID: 8791712901362019590}
   m_Layer: 3
   m_Name: CaCl2
   m_TagString: subs
@@ -99,7 +98,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-4595725964050808026
+--- !u!114 &8791712901362019590
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,24 +107,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5512619556266717066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27cb445faf411654996e0cade16124e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 25ace23a827f68f4398f140545b14995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 7
---- !u!114 &3931348277567152502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5512619556266717066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: badf78ae4d44b8848b55daad7b3f3091, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objToInteracteID: 30
-  actionNumber: 4
-  nextObjID: 30
-  myTurn: 0
-  exCheck: {fileID: 0}
+  Weight: 3.33
